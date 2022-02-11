@@ -1,0 +1,680 @@
+:root {
+    --myGrey: rgb(240,236,228);
+    --myBrick: #E27D60;
+    --myLightBlue: #85CDCA;
+    --myBrown: #E8A87C;
+    --myPurple: #C38D9E;
+    --myCyan: #41B3A3;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+    background-color: transparent;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#root {
+    display: flex;
+    flex: 1;
+}
+.body2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 100vh;
+    min-width: 100%;
+    max-width: 100%;
+} 
+
+#topbuffer {
+    display: flex;
+    min-height: 25px;
+    flex-grow: 0;
+    background-color: var(--myPurple);
+    max-width: 100%;
+}
+
+.invisiblebuffer {
+    display: flex;
+    min-height: 15px;
+    flex-grow: 1;
+}
+
+header {
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+    /* align-items determines how items as a whole are aligned within the container */
+    /* align-content determines spacing between lines, thus align-content has no effect when there's only one line */
+    align-items: center;
+    padding: 20px 20px 15px 20px;
+    background-color: var(--myBrick);
+    color: var(--myLightBlue);
+
+}
+
+#hobbieswrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name {
+    display: flex;
+    font-size: 2.2em;
+    font-family: 'Courier New';
+    margin: 10px;
+    align-self: center;
+}
+
+.blockdesign {
+    display: flex;
+    background-color: var(--myLightBlue);
+    min-height: 2px;
+    min-width: 200px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.blockdesignmain {
+    display: flex;
+    background-color: var(--myLightBlue);
+    min-height: 2px;
+    min-width: 200px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.subtitleContainer {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+#title {
+    background-color: darkgoldenrod;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--myGrey);
+    flex-grow: 1;
+    min-width: inherit;
+    flex-direction: column;
+}
+
+.namecontainer {
+    margin-top: 50px;
+    font-size: 3em;
+ 
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    min-width: inherit;
+}
+
+#subtitle {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: var(--myGrey);
+    flex-grow: 1;
+    /*top right bottom left*/
+    border-width: 0.5px 1px 0.5px 1px;
+    
+    min-width: 100%;
+}
+
+#aboutsubcontainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: var(--myGrey);
+}
+
+#paragraphwrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 33%;
+    padding: 20px 20px 20px 20px;
+   /* background-color: var(--myPurple); */
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+   
+}
+.paragraph {
+    display: flex;
+    background-color: var(--myGrey);
+    padding: 10px 15px 10px 15px;
+    margin: 5px 0px 5px 0px;
+    text-indent: 50px;
+    border-radius: 20px;
+}
+
+.paragraphtitle {
+    display: flex;
+    font-size: 1.5em;
+    padding: 10px 15px 10px 15px;
+    background-color: var(--myBrown);
+    border-radius: 20px;
+}
+#gradpicwrap {
+    display: flex;
+    margin: 20px;
+    
+    min-width: 33%;
+}
+
+#gradpic {
+    display: block;
+    width: 100%;
+    
+    /*adding max-width limits img size, thus taking it out allows for proportionate grow/shrink */
+    min-width: 600px;
+    height: auto;
+    border-radius: 50px;
+    background-color: burlywood;
+    cursor: default;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--myGrey);
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 0.5px 1px 0.5px 1px;
+    border-color: transparent;
+    
+    width: 100%;
+}
+
+#themarfare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    min-width: inherit;
+    
+}
+
+#marfareLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.8em;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration-line:underline;
+}
+#scenesContainer {
+    display: flex;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+}
+
+.marfareScene {
+    display: flex;
+    max-width: 33%;
+    margin: 0px 10px 0px 10px;
+}
+
+.marfareScene img {
+    border-radius: 0px;
+}
+
+.mouseWrap {
+    display: flex;
+    max-width: 10%;
+    margin: 0px 10px 0px 10px;
+}
+
+#hobbies {
+    display: flex;
+    background-color: var(--myGrey);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 0.5px 1px 0.5px 1px;
+    border-color: transparent;
+    
+    min-width: inherit;
+
+}
+
+#hobbieswrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 66%;
+    align-self: center;
+}
+.hobby {
+    display: flex;
+    font-family: 'Trajan Pro';
+    font-size: 2.5em;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    /*background-color: aquamarine*/
+}
+
+.hobbysubtitlewrap{
+    display: flex;
+    padding: 5px;
+    font-family: Courier New, Courier, monospace;
+    font-size: 0.8em;
+    justify-content: center;
+}
+
+.modalContainer {
+    display: flex;
+}
+.showsAndMoviesModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: burlywood;
+    margin: auto;
+}
+
+.showsAndMoviesModal-content {
+    color: powderblue;
+}
+
+.hobbyDescription {
+    display: flex;
+    margin: 100px;
+    width: 50%;
+}
+
+.leftSideBuffer {
+    display: flex;
+    flex-grow: 0;
+    min-width: 20%;
+    min-height: inherit;
+    background-color: tomato;
+}
+.rightSideBuffer {
+    display: flex;
+    flex-grow: 0;
+    min-width: 20%;
+    min-height: inherit;
+    background-color: tomato;
+}
+#showscontainer {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    width: 100%;
+    /*background-color: blue;*/
+}
+
+#exercisescontainer {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+
+.test1 {
+    background-color: brown;
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 0.5px 1px 0.5px 1px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.navbarTop {
+    display: flex;
+    flex-grow: 0;
+    font-size: 1.5em;
+    align-self: center;
+    margin-bottom: auto;
+}
+
+.navbarBot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-grow: 1;
+    font-size: 2em;
+    align-self: center;
+    background-color: var(--myGrey);
+    min-width: inherit;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#bottombuffer {
+    display: flex;
+    min-height: 25px;
+    flex-grow: 0;
+    background-color: darkcyan;
+    max-width: 100%;
+    margin-top: auto;
+}
+
+/* list */
+li {
+    margin: 5px 20px 5px 20px;
+    list-style-type: none;
+}
+
+/* changing link visuals */
+/* text-decoration: none removes underlines */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:focus {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+a:hover {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+a:active {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+/* pages */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: var(--myGrey);
+    flex-grow: 1;
+    min-width: 100%;
+    
+}
+
+.modalImgWrap {
+    display: flex;
+    justify-content: center;
+   
+    
+    width: 100%;
+    height: 100%;
+}
+
+.modalImgWrap img {
+    max-width: 100%;
+    max-height: auto;
+    background-color: aqua;
+}
+
+
+.itemModalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    background-color: rgb(255, 255, 255, 0.75);
+    z-index: 990;
+    
+   
+}
+
+/* default overlay content stylings
+.itemModalContent {
+    position: absolute;
+    top: 40px; 
+    left: 40px; 
+    right: 40px; 
+    bottom: 40px; 
+    border: 1px solid #ccc; 
+    background: #fff;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    -webkit-overflow-scrolling: touch;
+}*/
+
+
+.itemModalContentFlex {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+
+
+/* css for refactored modal component */
+
+.testModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255, 0.75);
+    z-index: 990;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.testModal.open {
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.testContentWrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.testModalImgWrap {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.testModalImgWrap img {
+    max-width: 100%;
+    max-height: auto;
+    
+       
+}
+
+/* testing fixed navbar*/
+.fixedNavbar {
+    display: none;
+    /*background-color: seashell;*/
+    opacity: 0;
+    visibility: hidden;
+    position:relative;
+    width: fit-content;
+}
+
+    .fixedNavbar.open {
+        display: flex;
+        opacity: 1;
+        visibility: visible;
+        flex-direction: column;
+        margin-bottom: auto;
+        
+    }
+
+.fixedHeader { 
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.buttonAndNameWrap {
+    display: flex;
+    background-color: var(--myCyan);
+}
+
+.menuButton {
+    transform: scale(1.3)
+}
+
+.menuButton:hover {
+    color: dimgray
+}
+
+.headerRight {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    letter-spacing: 0.25em;
+}
+.headerRight:focus {
+    color: black;
+}
+
+.menuTitle {
+    display: flex;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menuTitle:hover {
+    color: dimgray;
+}
+
+
+.parallaxImage {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.parallaxContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+.parallaxContent span.contentText {
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.betweenParallaxBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: var(--myGrey);
+}
+
+
+.homeLink {
+    background-color: var(--myBrick);
+    text-align: center;
+}
+
+.aboutLink {
+    background-color: var(--myLightBlue);
+    text-align: center;
+}
+.projectsLink {
+    background-color: var(--myBrown);
+    text-align: center;
+}
+.hobbiesLink {
+    background-color: var(--myPurple);
+    text-align: center;
+}
+.contactLink {
+    background-color: var(--myCyan);
+    text-align: center;
+}
+
+
+.navbarLinksTopWrap {
+    display: flex;
+    justify-content: center;
+    background-color: var(--myPurple);
+}
+
+.navbarLinksTop {
+    padding: 1em;
+    letter-spacing: 0.25em;
+}

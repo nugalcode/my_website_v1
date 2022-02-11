@@ -1,0 +1,18 @@
+#contactform {
+    display: flex;
+}
+
+#contacttemplate {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    min-width: 300px;
+}
+
+#messageform {
+    min-height: 200px;
+}
+
+.courier {
+    font-family: Courier New;
+}
