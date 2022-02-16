@@ -6,8 +6,8 @@ import AnimatedPageCustom from "../components/AnimatedPageCustom";
 export const Marfare = () => {
 
     return (
-        <div id="scenesContainer">
-            <div className="marfareScene">
+        <div className="scenesContainer">
+            <div className="projectPicWrap">
                 <AnimatedPageCustom initialParam={{ opacity: 0, x: -500, transition: { duration: 1 } }}
                     animateParam={{ opacity: 1, x: 0, transition: { duration: 1 } }}
                     exitParam={{ opacity: 0, x: 500, transition: { duration: 0.5 } }}>
@@ -18,7 +18,7 @@ export const Marfare = () => {
                 </AnimatedPageCustom>
             </div>
 
-            <div className="marfareScene">
+            <div className="projectPicWrap">
                 <AnimatedPageCustom initialParam={{ opacity: 0, x: 500, transition: { duration: 1 } }}
                     animateParam={{ opacity: 1, x: 0, transition: { duration: 1 } }}
                     exitParam={{ opacity: 0, x: 500, transition: { duration: 0.5 } }}>
@@ -28,7 +28,7 @@ export const Marfare = () => {
                     </Item>
                 </AnimatedPageCustom>
             </div>
-            <div className="marfareScene">
+            <div className="projectPicWrap">
                 <AnimatedPageCustom initialParam={{ opacity: 0, x: -500, transition: { duration: 1 } }}
                     animateParam={{ opacity: 1, x: 0, transition: { duration: 1 } }}
                     exitParam={{ opacity: 0, x: -500, transition: { duration: 0.5 } }}>
@@ -38,7 +38,7 @@ export const Marfare = () => {
                     </Item>
                 </AnimatedPageCustom>
             </div>
-            <div className="marfareScene">
+            <div className="projectPicWrap">
                 <AnimatedPageCustom initialParam={{ opacity: 0, x: 500, transition: { duration: 1 } }}
                     animateParam={{ opacity: 1, x: 0, transition: { duration: 1 } }}
                     exitParam={{ opacity: 0, x: -500, transition: { duration: 0.5 } }}>

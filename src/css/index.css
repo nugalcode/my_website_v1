@@ -222,7 +222,7 @@ main {
     width: 100%;
 }
 
-#themarfare {
+.subProjectWrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -232,7 +232,7 @@ main {
     
 }
 
-#marfareLinks {
+.marfareLinks {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,7 +242,7 @@ main {
     margin-bottom: 20px;
     text-decoration-line:underline;
 }
-#scenesContainer {
+.scenesContainer {
     display: flex;
     flex-flow: wrap;
     flex-wrap: wrap;
@@ -252,15 +252,15 @@ main {
     width: 80%;
 }
 
-.marfareScene {
+.projectPicWrap {
     display: flex;
-    max-width: 33%;
+    max-width: 50%;
     margin: 0px 10px 0px 10px;
 }
 
-.marfareScene img {
-    border-radius: 0px;
-}
+    .projectPicWrap img {
+        border-radius: 0px;
+    }
 
 .mouseWrap {
     display: flex;
