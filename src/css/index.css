@@ -517,7 +517,7 @@ a:active {
     right: 0;
     bottom: 0;
     background-color: rgb(255, 255, 255, 0.75);
-    z-index: 990;
+    z-index: 999;
     opacity: 0;
     visibility: hidden;
 }
@@ -689,3 +689,13 @@ a:active {
     .navbarLinksTop.currentPage {
         color: var(--myGrey);
     }
+
+
+.closeIcon {
+    cursor: pointer;
+}
+
+.closeIcon:hover {
+    transform: scale(1.1);
+    color: red;
+}
