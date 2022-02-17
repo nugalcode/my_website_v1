@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../css/Carousel.css';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import  Item  from './Item';
 
