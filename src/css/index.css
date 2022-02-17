@@ -42,12 +42,6 @@ body {
     max-width: 100%;
 }
 
-.invisiblebuffer {
-    display: flex;
-    min-height: 15px;
-    flex-grow: 1;
-}
-
 header {
     display: flex;
     flex-grow: 0;
@@ -239,19 +233,6 @@ a:hover {
 a:active {
     text-decoration: none;
     color: aquamarine;
-}
-
-/* pages */
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: var(--myGrey);
-    flex-grow: 1;
-    min-width: 100%;
 }
 
 /* testing fixed navbar*/

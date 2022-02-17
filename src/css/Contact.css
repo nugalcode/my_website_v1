@@ -1,3 +1,14 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: var(--myGrey);
+    flex-grow: 1;
+    min-width: 100%;
+}
+
 #contactform {
     display: flex;
 }
