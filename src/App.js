@@ -1,21 +1,18 @@
 import './css/App.css';
 import { Routes, Route, useLocation } from "react-router-dom";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Projects from "./pages/Projects"
 import { AnimatePresence } from "framer-motion";
-import FixedHeader from "./components/FixedHeader"
 import FixedHeaderLinksTop from "./components/FixedHeaderLinksTop"
 
 function App() {
     const location = useLocation();
 
     return (
-        <div className="body2">
+        <div id="App">
             <div id="topbuffer"/> 
             <FixedHeaderLinksTop />
             

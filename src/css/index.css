@@ -23,7 +23,7 @@ body {
     display: flex;
     flex: 1;
 }
-.body2 {
+#App {
     display: flex;
     justify-content: center;
     align-content: center;
