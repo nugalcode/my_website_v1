@@ -322,12 +322,3 @@ a:active {
     background-color: var(--myCyan);
     text-align: center;
 }
-
-.closeIcon {
-    cursor: pointer;
-}
-
-.closeIcon:hover {
-    transform: scale(1.1);
-    color: red;
-}

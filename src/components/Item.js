@@ -43,7 +43,7 @@ const Item = ({ image, name, caption }) => {
                     <div className="testContentWrap" onClick={(e) => handleContentOnClick(e)}>
                         <div className="testModalImgWrap">
                             <img src={tempImageSrc} alt="modal_pic" />
-                            <CloseIcon classname="closeIcon" onClick={() => setModel(!model)} />
+                            <CloseIcon onClick={() => setModel(!model)} />
                         </div>
                     </div>
                
