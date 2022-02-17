@@ -560,48 +560,6 @@ a:active {
     color: dimgray;
 }
 
-
-.parallaxImage {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-}
-.parallaxContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-}
-
-.parallaxContent span.contentText {
-    background-color: #333;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    letter-spacing: 10px;
-    padding: 1rem;
-    border-radius: 10px;
-
-}
-
-.betweenParallaxBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    background-color: var(--myGrey);
-    border: 1px solid var(--myGrey);
-    
-    box-shadow: 12px 0 15px -4px rgba(195, 141, 158, 0.8), -12px 0 8px -4px rgba(195, 141, 158, 0.8);
-}
-
-.betweenParallaxBox span {
-    padding: 20px;
-}
-
-
 .homeLink {
     background-color: var(--myBrick);
     text-align: center;
