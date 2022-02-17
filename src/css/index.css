@@ -582,23 +582,6 @@ a:active {
     text-align: center;
 }
 
-
-.navbarLinksTopWrap {
-    display: flex;
-    justify-content: center;
-    background-color: var(--myPurple);
-}
-
-.navbarLinksTop {
-    padding: 1em;
-    letter-spacing: 0.25em;
-}
-
-    .navbarLinksTop.currentPage {
-        color: var(--myGrey);
-    }
-
-
 .closeIcon {
     cursor: pointer;
 }
