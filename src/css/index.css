@@ -127,46 +127,6 @@ main {
     margin-top: 20px;
 }
 
-.modalContainer {
-    display: flex;
-}
-.showsAndMoviesModal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: burlywood;
-    margin: auto;
-}
-
-.showsAndMoviesModal-content {
-    color: powderblue;
-}
-
-.leftSideBuffer {
-    display: flex;
-    flex-grow: 0;
-    min-width: 20%;
-    min-height: inherit;
-    background-color: tomato;
-}
-.rightSideBuffer {
-    display: flex;
-    flex-grow: 0;
-    min-width: 20%;
-    min-height: inherit;
-    background-color: tomato;
-}
-
-.test1 {
-    background-color: brown;
-    flex-grow: 1;
-    border-style: solid;
-    border-width: 0.5px 1px 0.5px 1px;
-    border-radius: 20px;
-    margin: 20px;
-}
 .navbarTop {
     display: flex;
     flex-grow: 0;
