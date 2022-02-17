@@ -1,5 +1,6 @@
 /* About me page */
 import React from 'react';
+import '../css/About.css';
 import GradPic from "../imgs/grad_pic.jpg";
 import SubtitleAnimated from "../components/SubtitleAnimated";
 import BlockAnimated from "../components/BlockAnimated";

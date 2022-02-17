@@ -1,0 +1,65 @@
+#about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: var(--myGrey);
+    flex-grow: 1;
+    /*top right bottom left*/
+    border-width: 0.5px 1px 0.5px 1px;
+    min-width: 100%;
+}
+
+#aboutsubcontainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: var(--myGrey);
+}
+
+#paragraphwrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 33%;
+    padding: 20px 20px 20px 20px;
+    /* background-color: var(--myPurple); */
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    display: flex;
+    background-color: var(--myGrey);
+    padding: 10px 15px 10px 15px;
+    margin: 5px 0px 5px 0px;
+    text-indent: 50px;
+    border-radius: 20px;
+}
+
+.paragraphtitle {
+    display: flex;
+    font-size: 1.5em;
+    padding: 10px 15px 10px 15px;
+    background-color: var(--myBrown);
+    border-radius: 20px;
+}
+
+#gradpicwrap {
+    display: flex;
+    margin: 20px;
+    min-width: 33%;
+}
+
+#gradpic {
+    display: block;
+    width: 100%;
+    /*adding max-width limits img size, thus taking it out allows for proportionate grow/shrink */
+    min-width: 600px;
+    height: auto;
+    border-radius: 50px;
+    background-color: burlywood;
+    cursor: default;
+}
