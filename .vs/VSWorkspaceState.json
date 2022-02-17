@@ -5,8 +5,9 @@
     "\\src",
     "\\src\\components",
     "\\src\\css",
+    "\\src\\imgs",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\components\\Item.js",
+  "SelectedNode": "\\src\\components\\Movies.js",
   "PreviewInSolutionExplorer": false
 }
