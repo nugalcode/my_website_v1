@@ -4,15 +4,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
-//import { motion, AnimatePresence } from "framer-motion";
-
-
-/*const animations = {
-    initial: { opacity: 0, transition: { duration: 2 } },
-    animate: { opacity: 1, transition: { duration: 2 } },
-    exit: { opacity: 0, transition: { duration: 1 } },
-
-}*/
+import '../css/Item.css';
 
 const Item = ({ image, name, caption }) => {
     
@@ -62,7 +54,7 @@ const Item = ({ image, name, caption }) => {
            
             <div className='item'>
                 <img src={image} alt='travel' className="image" onClick={() => getImg(image)}/>
-                <p className='hobbiesname'> {name} </p>
+                <p> {name} </p>
                 <p className='caption'> {caption} </p>
             </div>
         </>

@@ -453,47 +453,6 @@ a:active {
     min-width: 100%;
 }
 
-/* Modal component */
-
-.testModal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(255, 255, 255, 0.75);
-    z-index: 999;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.testModal.open {
-    visibility: visible;
-    opacity: 1;
-    
-}
-
-.testContentWrap {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);    
-}
-
-.testModalImgWrap {
-    display: flex;
-    justify-content: center;
-    
-   
-}
-
-.testModalImgWrap img {
-    max-width: 100%;
-    max-height: auto;
-    
-       
-}
-
 /* testing fixed navbar*/
 .fixedNavbar {
     display: none;
