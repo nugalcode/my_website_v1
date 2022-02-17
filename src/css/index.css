@@ -61,13 +61,6 @@ header {
 
 }
 
-#hobbieswrap {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
 #name {
     display: flex;
     font-size: 2.2em;
@@ -209,48 +202,6 @@ main {
     cursor: default;
 }
 
-#hobbies {
-    display: flex;
-    background-color: var(--myGrey);
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    flex-grow: 1;
-    border-style: solid;
-    border-width: 0.5px 1px 0.5px 1px;
-    border-color: transparent;
-    
-    min-width: inherit;
-
-}
-
-#hobbieswrap {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 66%;
-    align-self: center;
-}
-.hobby {
-    display: flex;
-    font-family: 'Trajan Pro';
-    font-size: 2.5em;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 50%;
-    /*background-color: aquamarine*/
-}
-
-.hobbysubtitlewrap{
-    display: flex;
-    padding: 5px;
-    font-family: Courier New, Courier, monospace;
-    font-size: 0.8em;
-    justify-content: center;
-}
-
 .modalContainer {
     display: flex;
 }
@@ -268,12 +219,6 @@ main {
     color: powderblue;
 }
 
-.hobbyDescription {
-    display: flex;
-    margin: 100px;
-    width: 50%;
-}
-
 .leftSideBuffer {
     display: flex;
     flex-grow: 0;
@@ -287,21 +232,6 @@ main {
     min-width: 20%;
     min-height: inherit;
     background-color: tomato;
-}
-#showscontainer {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    width: 100%;
-    /*background-color: blue;*/
-}
-
-#exercisescontainer {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    width: 100%;
-    /* background-color: chartreuse; */
 }
 
 .test1 {

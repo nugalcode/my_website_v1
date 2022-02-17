@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/Hobbies.css';
 import Carousel from '../components/Carousel';
 import { ShowsAndMoviesPictures } from '../components/ShowsAndMoviesPictures';
 import { OutdoorPictures } from '../components/OutdoorPictures';
