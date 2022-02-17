@@ -5,8 +5,7 @@ import { Movies } from "../components/Movies";
 import SubtitleAnimated from "../components/SubtitleAnimated";
 import BlockAnimated from "../components/BlockAnimated";
 import AnimatedPageCustom from "../components/AnimatedPageCustom";
-
-
+import '../css/Projects.css';
 
 const Projects = () => {
     return (
