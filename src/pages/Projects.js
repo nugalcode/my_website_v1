@@ -18,7 +18,7 @@ const Projects = () => {
                     <AnimatedPageCustom initialParam={{ opacity: 0, x: -500, transition: { duration: 1 } }}
                         animateParam={{ opacity: 1, x: 0, transition: { duration: 1 } }}
                         exitParam={{ opacity: 0, x: -500, transition: { duration: 0.5 } }}>
-                    The Marfare: An Original 2D Web Game
+                    <div className="projectTitle"> The Marfare: An Original 2D Web Game </div>
                 </AnimatedPageCustom>
                     <AnimatedPageCustom initialParam={{ opacity: 0, x: 500, transition: { duration: 1 } }}
                         animateParam={{ opacity: 1, x: 0, transition: { duration: 1 } }}
@@ -40,7 +40,7 @@ const Projects = () => {
                 <AnimatedPageCustom initialParam={{ opacity: 0, x: -500, transition: { duration: 1 } }}
                     animateParam={{ opacity: 1, x: 0, transition: { duration: 1 } }}
                     exitParam={{ opacity: 0, x: -500, transition: { duration: 0.5 } }}>
-                    Movies App using The Movie Database (TMDB) API
+                    <div className="projectTitle"> Movies App using The Movie Database (TMDB) API </div>
                 </AnimatedPageCustom>
                 <AnimatedPageCustom initialParam={{ opacity: 0, x: 500, transition: { duration: 1 } }}
                     animateParam={{ opacity: 1, x: 0, transition: { duration: 1 } }}

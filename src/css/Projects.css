@@ -21,6 +21,9 @@
     min-width: inherit;
 }
 
+.projectTitle {
+    padding: 20px;
+}
 .marfareLinks {
     display: flex;
     flex-direction: column;
@@ -28,7 +31,7 @@
     font-size: 0.8em;
     align-items: center;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-decoration-line: underline;
 }
 
