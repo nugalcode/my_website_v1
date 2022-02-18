@@ -27,7 +27,7 @@ const EmailForm = () => {
                 <label>Your Email</label>
                 <input type="email" name="email" placeholder="sc30@example.com" className="courier" />
                 <label>Your Message</label>
-                <textarea name="message" id="messageform" placeholder="Write your message here and click send- I'll send a response to the email above as soon as I can!"
+                <textarea name="message" id="messageform" 
                     className="courier"/>
                 <input type="submit" value="Send" />
             </form>
