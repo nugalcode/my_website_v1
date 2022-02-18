@@ -9,6 +9,7 @@
     /*top right bottom left*/
     border-width: 0.5px 1px 0.5px 1px;
     min-width: 100%;
+    margin-top: 40px;
 }
 
 #aboutsubcontainer {
