@@ -46,9 +46,9 @@ const Projects = () => {
                     animateParam={{ opacity: 1, x: 0, transition: { duration: 1 } }}
                     exitParam={{ opacity: 0, x: 500, transition: { duration: 0.5 } }}>
                     <div className="marfareLinks">
-                        <a href="https://github.com/nugalm/ECS_193_Project.git"
+                        <a href="https://github.com/nugalcode/movies_app"
                             target="_blank" rel="noopener noreferrer">
-                            Placeholder Link </a>
+                            Github </a>
                     </div>
                     </AnimatedPageCustom>
                 <Movies />
