@@ -31,6 +31,7 @@
     background-color: var(--myGrey);
     border: 1px solid var(--myGrey);
     box-shadow: 12px 0 15px -4px rgba(195, 141, 158, 0.8), -12px 0 8px -4px rgba(195, 141, 158, 0.8);
+    line-height: 40px;
 }
 
     .betweenParallaxBox span {

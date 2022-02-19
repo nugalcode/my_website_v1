@@ -12,7 +12,7 @@ const parallaxStrength = 500;
 const ParallaxImageOne = () => {
     return (
         <>
-            <Parallax className="parallaxImage" bgImage={Jumbo} strength={700}>
+            <Parallax className="parallaxImage" bgImage={Jumbo} strength={parallaxStrength}>
                 <div className="parallaxContent">
                     <span className="contentText"> Welcome! </span>
                 </div>
