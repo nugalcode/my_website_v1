@@ -38,6 +38,8 @@
     margin: 5px 0px 5px 0px;
     text-indent: 50px;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.4);
+    line-height: 25px;
 }
 
 .paragraphtitle {
@@ -46,6 +48,7 @@
     padding: 10px 15px 10px 15px;
     background-color: var(--myBrown);
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.4);
 }
 
 #gradpicwrap {
