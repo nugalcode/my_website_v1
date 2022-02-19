@@ -54,14 +54,12 @@
 #gradpicwrap {
     display: flex;
     margin: 20px;
-    min-width: 33%;
 }
 
 #gradpic {
     display: block;
-    width: 100%;
     /*adding max-width limits img size, thus taking it out allows for proportionate grow/shrink */
-    min-width: 600px;
+    min-width: 300px;
     height: auto;
     border-radius: 50px;
     background-color: burlywood;
