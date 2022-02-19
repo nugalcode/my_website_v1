@@ -11,16 +11,20 @@
     position: absolute;
     height: 100vh;
     width: 100%;
+
 }
 
     .parallaxContent span.contentText {
-        background-color: #333;
-        color: white;
+        background-color: var(--myGrey);
+        color: black;
         text-transform: uppercase;
-        font-size: 1.5rem;
+        font-size: 2rem;
         letter-spacing: 10px;
         padding: 1rem;
         border-radius: 10px;
+        font-weight: bold;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.6);
+        
     }
 
 .betweenParallaxBox {
