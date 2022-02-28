@@ -1,10 +1,9 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import TyrionAndDrogon from '../imgs/tyrion_drogon_wallpaper.jpg';
 import Curry from '../imgs/curry_wallpaper_2.jpg';
 import Yellowstone from '../imgs/yosemite_2.jpg';
 import Jumbo from '../imgs/jumbo.JPG';
-import Me from '../imgs/grad_pic.jpg';
 import '../css/Parallax.css'
 
 const parallaxStrength = 500;
