@@ -14,7 +14,7 @@ function App() {
     return (
         <div id="App">
             <div id="topbuffer"/> 
-            <FixedHeaderLinksTop />
+            <FixedHeaderLinksTop navLocation={location.pathname}/>
             
             <main>
                 <AnimatePresence exitBeforeEnter={true} initial={false}>
